@@ -1,12 +1,12 @@
 <p align="center">
-  <img src=".github/assets/banner.svg" alt="SIMPLYCLEAN CRM: Sparkling-clean operations for cleaning businesses." width="100%">
+  <img src=".github/assets/banner.svg" alt="Sparkling-clean ops.: Leads, jobs, cleaners and invoices in one bright dashboard." width="100%">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-public-14b8a6?style=for-the-badge" alt="Public">
-  <img src="https://img.shields.io/badge/license-MIT-14b8a6?style=for-the-badge" alt="License">
-  <img src="https://img.shields.io/github/last-commit/F0rger123/SimplyClean-CRM?style=for-the-badge&color=14b8a6" alt="Last commit">
-  <img src="https://img.shields.io/github/repo-size/F0rger123/SimplyClean-CRM?style=for-the-badge&color=14b8a6" alt="Repo size">
+  <img src="https://img.shields.io/badge/status-public-7c3aed?style=for-the-badge" alt="Public">
+  <img src="https://img.shields.io/badge/license-MIT-7c3aed?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/github/last-commit/F0rger123/SimplyClean-CRM?style=for-the-badge&color=7c3aed" alt="Last commit">
+  <img src="https://img.shields.io/github/repo-size/F0rger123/SimplyClean-CRM?style=for-the-badge&color=7c3aed" alt="Repo size">
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=white" alt="React">
@@ -19,9 +19,11 @@
 
 <p align="center">
   <a href="#-whats-on-screen">What's on screen</a> ·
+  <a href="#-screens">Screens</a> ·
   <a href="#-two-portals">Two portals</a> ·
-  <a href="#-run-it">Run it</a> ·
-  <a href="#-project-map">Project map</a> ·
+  <a href="#️-run-it">Run it</a> ·
+  <a href="#️-project-map">Project map</a> ·
+  <a href="#-code-composition">Code composition</a> ·
   <a href="#-license">License</a>
 </p>
 
@@ -43,6 +45,19 @@
 | 🔌 | **Integrations** | Connected-service settings |
 | 🤖 | **AI assistant** | Modal assistant plus global search |
 | 🎉 | **Delight** | Confetti on wins |
+
+## 📸 Screens
+
+<table>
+  <tr>
+    <td width="74%"><img src=".github/assets/screens/dashboard.jpg" alt="Operations dashboard"><br><sub><b>Operations dashboard.</b> Seed data from <code>src/data/initialData.js</code>.</sub></td>
+    <td width="26%"><img src=".github/assets/screens/contractor.jpg" alt="Contractor mobile portal"><br><sub><b>Cleaner app.</b></sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src=".github/assets/screens/jobs.jpg" alt="Jobs and dispatch"><br><sub><b>Jobs & dispatch.</b></sub></td>
+    <td width="50%"><img src=".github/assets/screens/landing.jpg" alt="Landing page"><br><sub><b>Landing page.</b></sub></td>
+  </tr>
+</table>
 
 ## 🚪 Two portals
 
@@ -85,7 +100,7 @@ src/
 ## 📊 Code composition
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'pie1':'#14b8a6','pie2':'#38bdf8','pie3':'#64748b','pie4':'#94a3b8','pie5':'#475569','pie6':'#cbd5e1','pie7':'#334155','pieStrokeColor':'#0d1117','pieOuterStrokeColor':'#0d1117','pieTitleTextColor':'#8b949e','pieLegendTextColor':'#8b949e','pieSectionTextColor':'#0d1117'}}}%%
+%%{init: {'theme':'base','themeVariables':{'pie1':'#7c3aed','pie2':'#9333ea','pie3':'#64748b','pie4':'#94a3b8','pie5':'#475569','pie6':'#cbd5e1','pie7':'#334155','pieStrokeColor':'#0d1117','pieOuterStrokeColor':'#0d1117','pieTitleTextColor':'#8b949e','pieLegendTextColor':'#8b949e','pieSectionTextColor':'#0d1117'}}}%%
 pie title Code composition (% of bytes, via GitHub linguist)
     "JavaScript" : 99.3
     "Other" : 0.7
