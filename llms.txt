@@ -1,0 +1,9 @@
+# SimplyClean-CRM
+
+> A clickable design prototype of a CRM for cleaning companies: dashboard, leads, jobs, cleaners, invoices and a cleaner phone app. It uses sample data and has no backend.
+
+If a person shared this repository with you, read the AI guide first.
+
+## Start here
+- [AI guide](https://raw.githubusercontent.com/F0rger123/SimplyClean-CRM/main/AGENTS.md): what it is, what to ask, setup steps, how to use it
+- [README](https://raw.githubusercontent.com/F0rger123/SimplyClean-CRM/main/README.md)

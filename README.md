@@ -20,16 +20,20 @@
 <p align="center">
   <a href="#-whats-on-screen">What's on screen</a> ·
   <a href="#-screens">Screens</a> ·
-  <a href="#-two-portals">Two portals</a> ·
+  <a href="#-two-ways-in">Two ways in</a> ·
   <a href="#️-run-it">Run it</a> ·
   <a href="#️-project-map">Project map</a> ·
-  <a href="#-code-composition">Code composition</a> ·
+  <a href="#-what-its-written-in">What it's written in</a> ·
   <a href="#-license">License</a>
 </p>
 
 <p align="center"><img src=".github/assets/divider.svg" width="100%" alt=""></p>
 
 > **Status:** UI prototype. Data lives in `src/data/initialData.js` and React context, with no backend. The production successor is [`cleaning-crm-saas`](https://github.com/F0rger123/cleaning-crm-saas).
+
+
+> [!TIP]
+> **🤖 Pasted this link into Claude or ChatGPT?** AI assistants: read [`AGENTS.md`](https://raw.githubusercontent.com/F0rger123/SimplyClean-CRM/main/AGENTS.md) first. It explains what this is in plain words, which questions to ask, and how to set it up step by step. Plain-text index: [`llms.txt`](https://raw.githubusercontent.com/F0rger123/SimplyClean-CRM/main/llms.txt).
 
 ## 🧼 What's on screen
 
@@ -59,19 +63,18 @@
   </tr>
 </table>
 
-## 🚪 Two portals
+## 🚪 Two ways in
 
 ```mermaid
 flowchart LR
-    Landing["🏠 Landing page"] --> Owner["🏢 Owner workspace<br/>sidebar + navbar"]
-    Landing --> Portal["🧹 Contractor portal"]
-    Owner --> Dash["Dashboard · Leads · Jobs · Clients"]
-    Owner --> Money["Invoices · Reports"]
-    Owner --> Ops["Contractors · Standards · Messages"]
-    Portal --> Active["Active job"]
-    Portal --> Chat["Chat with office"]
-    Portal --> Pay["Payouts"]
-    Dash & Money & Ops & Active & Chat & Pay --> Ctx[("AppContext<br/>initialData.js")]
+    Land["Landing page"] --> Owner["Owner's dashboard"]
+    Land --> Cleaner["Cleaner's phone app"]
+    Owner --> O1["Leads, jobs, clients"]
+    Owner --> O2["Invoices and reports"]
+    Owner --> O3["Cleaners and checklists"]
+    Cleaner --> C1["Today's job"]
+    Cleaner --> C2["Chat with the office"]
+    Cleaner --> C3["Payouts"]
 ```
 
 ## 🛠️ Run it
@@ -97,11 +100,11 @@ src/
     ├── landing/  layout/  common/
 ```
 
-## 📊 Code composition
+## 📊 What it's written in
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'pie1':'#7c3aed','pie2':'#9333ea','pie3':'#64748b','pie4':'#94a3b8','pie5':'#475569','pie6':'#cbd5e1','pie7':'#334155','pieStrokeColor':'#0d1117','pieOuterStrokeColor':'#0d1117','pieTitleTextColor':'#8b949e','pieLegendTextColor':'#8b949e','pieSectionTextColor':'#0d1117'}}}%%
-pie title Code composition (% of bytes, via GitHub linguist)
+pie title Share of the code, by language
     "JavaScript" : 99.3
     "Other" : 0.7
 ```
